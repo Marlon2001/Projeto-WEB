@@ -1,0 +1,596 @@
+/*
+    #0F1626 - NAVY BLUE
+    #AB987A - LEATHER
+    #FF533D - CORAL
+    #F5F5F5 - EGGSHELL
+*/
+
+
+body{
+    /* background-image: url('../imagens/textura.jpg'); */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* Cabeçalho --------------------------------------------------------------------------------------------------*/
+header{
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    z-index: 999;
+    background-color: #0F1626;
+}
+
+.mostrar{
+    transition: 1s;
+    position: fixed;
+    z-index: 999;
+}
+
+
+#menu_principal{
+    width: 1400px;
+    height: inherit;
+    box-sizing: border-box;
+}
+
+#logo{
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    color: white;
+    float: left;
+}
+
+#logo:hover{
+    cursor: pointer;
+    transform: rotate3d(0,0,1, -30deg);
+}
+
+#sessoes_menu{
+    width: 750px;
+    height: 60px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+#menu_ul{
+    box-sizing: border-box;
+    width: 750px;
+    height: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_ul li{
+    width: 115px;   
+    height: inherit;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    list-style: none;
+    box-sizing: border-box;
+    margin-right: 10px;
+    border-radius: 15px;
+    float: left;
+    transition: 0.3s;
+}
+
+#menu_ul li:hover{
+    background-color: rgb(52, 58, 64);
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu_ul_a{
+    padding: 20px 26px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+.menu_ul_a:hover{
+    text-decoration: underline;
+}
+
+#login{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+#ul_login{
+    width: 500px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ul_login li{
+    width: 200px;   
+    height: 50px;
+    list-style: none;
+    color: white;
+    box-sizing: border-box;
+    float:left;
+}
+
+#txt_usuario, #txt_password{
+    padding: 6px 10px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    background-color: lightblue;
+}
+
+button{
+    padding: 4px 8px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #358337;
+}
+
+button:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+}
+
+/* Conteudo --------------------------------------------------------------------------------------------------*/
+#caixa_conteudo, #caixa_conteudo_noticias{
+    width: 1400px;
+    min-height: 1400px;
+    height: auto;
+    overflow-y: hidden;
+    border: 2px solid black;
+}
+
+#slide{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+}
+
+#redes_sociais{
+    width: 210px;
+    height: 600px;
+    position: absolute;
+    margin-left: 1054px;
+    margin-top: -450px;
+}
+
+.rede_social{
+    width: 120px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: 0.5s;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.facebook:hover, .twiter:hover, .instagram:hover{
+    cursor: pointer;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+#conteudo_lado_direito #redes_sociais .rede_social a:link{
+    text-align: center;
+    opacity: 0;
+    padding: 80px 95px;
+}
+
+#conteudo{
+    width: 100%;
+    min-height: 1200px;
+    height: auto;
+    display: flex;
+    overflow-y: hidden;
+    border-top: 1px solid black;
+}
+
+#conteudo_lado_esquerdo{
+    width: 350px;
+    min-height: 1200px;
+    height: auto;
+    border-right: 1px solid black;
+    padding: 2px;
+    float: left;
+}
+
+.categorias{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #FF533D;
+    margin-bottom: 2px;
+}
+
+#conteudo_lado_direito{
+    width: 1050px;
+    min-height: 1200px;
+    height: auto;
+    float: left;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    overflow-x: auto;
+}
+
+.card{
+    width: 320px;
+    height: 450px;
+    border-right: 1px solid rgb(229, 229, 229);
+    /* background-color: #F5F5F5; */
+    box-shadow: 2px 2px 15px #000;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.card_img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 280px;
+    height: 280px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.card_descricao{
+    width: inherit;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.txt_descricao{
+    font-size: 16px;
+    color: rgb(127, 102, 127);
+}
+
+.txt_preco{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+}
+
+.card_rodape{
+    width: inherit;
+    height: 20px;
+    box-sizing: border-box;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.card_rodape_a{
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#rodape{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(34, 34, 34);
+}
+
+#rodape_links{
+    width: inherit;
+    height: 100px;
+    padding-left: 150px;
+    padding-right: 140px;
+    box-sizing: border-box;
+    background-color: rgb(25, 25, 25);
+}
+
+.links{
+    height: inherit;
+    width: 300px;
+    margin-right: 20px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.links_a{
+    padding: 39px 78px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    box-sizing: border-box;
+}
+
+.links_a:hover{
+    text-decoration: underline;
+    color: #FF533D;
+}
+
+#rodape_informacoes{
+    width: 100%;
+    height: 300px;
+    padding-left: 300px;
+    padding-top: 37px;
+    padding-right: 220px;
+    box-sizing: border-box;
+}
+
+#rodape_social{
+    width: 100%;
+    height: 100px;
+}
+
+#empresa-label{
+    width: 500px;
+    height: 80px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 28px;
+}
+
+#empresa-label a{
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+    padding: 30px 60px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: UrbanDefenderSemital;
+}
+
+#empresa-label a:hover{
+    text-decoration: underline;
+    color: #FF533D;
+}
+
+#siga_nos{
+    width: 120px;
+    height: 30px;
+    font-size: 22px;
+    margin-top: 34px;
+    color: white;
+    box-sizing: border-box;
+    margin-right: 15px;
+    font-weight: bold;
+    float: left;
+}
+
+#facebook-label, #instagram-label, #youtube-label{
+    width: 45px; 
+    height: 45px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#facebook-label{
+    background-image: url(../imagens/icones/icone_facebook.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 45px;
+}
+
+#instagram-label{
+    background-image: url(../imagens/icones/icone_instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 45px;
+}
+
+#youtube-label{
+    background-image: url(../imagens/icones/icone_twiter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 45px;
+}
+
+#facebook-label a:link, #instagram-label a:link, #youtube-label a:link{
+    padding: 40px 20px;
+    opacity: 0;
+}
+
+#rodape_endereco{
+    width: 100%;
+    height: 70px;
+    font-size: 22px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+}
+
+#copyright{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+#sobre_box{
+    width: 1500px;
+    min-height: 400px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+#institucional_box{
+    width: 300px;
+    height: 340px;
+    border-radius: 12px;
+    border-top: 1px solid rgb(226, 226, 226);
+    border-left: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(230, 229, 229);
+    box-sizing: border-box;
+    padding: 7px;
+    float: left;
+}
+
+#institucional_titulo{
+    width: 286px;
+    height: 40px;
+    font-size: 18px;
+    background: -webkit-linear-gradient(top,#e4e3e4 0,#fff 100%);
+    color: #2b414d;
+    font-weight: bold;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 6px 15px;
+}
+
+#institucional_conteudo{
+    width: 286px;
+    height: 280px;
+    padding: 8px 15px;
+}
+
+#institucional_conteudo ul{
+    width: inherit;
+    height: inherit;
+}
+
+#institucional_conteudo ul li{
+    line-height: 35px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+#institucional_conteudo ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(43, 65, 77);
+}
+
+#quem_somos_box{
+    width: 1180px;
+    min-height: 1000px;
+    height: auto;
+    margin-left: 20px;
+    float: left;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.box_titulo{
+    font-size: 36px;
+    color: rgb(43, 65, 77);
+    font-weight: bold;
+}
+
+#box_frase{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 40px;
+    color: black;
+}
+
+.texto_box, .texto_box2{
+    font-size: 24px;
+    margin-top: 40px;
+    color: black;
+    text-align: justify;
+    line-height: 48px;
+}
+
+.texto_box2{
+    margin-top: 60px;
+}
+
+#aux_box{
+    width: 300px;
+    height: 320px;
+    clear: both;
+    margin-top: 100px;
+    float: left;
+}
+
+#contatos_box{
+    width: 1180px;
+    min-height: 1000px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 100px;
+    float: left;
+    color: white;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+#caixa_conteudo_noticias{
+    width: 1500px;    
+    margin-top: 40px;
+    border: 0;
+}
+
+@font-face {
+    font-family: UrbanDefenderSemital;
+    src: url(../fontes/urban_defender/urbandefendersemital.ttf);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
