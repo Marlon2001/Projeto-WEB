@@ -9,13 +9,13 @@
                 <a href="noticias.php" class="menu_ul_a">Notícias</a>
             </li>
             <li>
-                <a href="#" class="menu_ul_a" style="padding: 20px 14px;">Promoções</a>                            
+                <a href="promocoes.php" class="menu_ul_a" style="padding: 20px 14px;">Promoções</a>                            
             </li>
             <li>
-                <a href="#" class="menu_ul_a">Eventos</a>                            
+                <a href="eventos.php" class="menu_ul_a">Eventos</a>                            
             </li>
             <li>
-                <a href="#" class="menu_ul_a" style="padding: 20px 7px;">Nossas Lojas</a>
+                <a href="nossaslojas.php" class="menu_ul_a" style="padding: 20px 7px;">Nossas Lojas</a>
             </li>
             <li>
                 <a href="sobre.php#contatos_box" class="menu_ul_a" style="padding: 20px 6px;">Contato</a>

@@ -23,17 +23,16 @@
                     <div id="institucional_conteudo">
                         <ul>
                             <li><a href="index.php">Home</a></li>
-                            <li><a href="#">Quem Somos</a></li>
-                            <li><a href="#">Noticias</a></li>
-                            <li><a href="#">Promoções</a></li>
-                            <li><a href="#">Eventos</a></li>
-                            <li><a href="#">Nossas Lojas</a></li>
-                            <li><a href="#">Contato</a></li>
-                            <li><a href="#">Sobre</a></li>
+                            <li><a href="sobre.php">Quem Somos</a></li>
+                            <li><a href="noticias.php">Noticias</a></li>
+                            <li><a href="promocoes.php">Promoções</a></li>
+                            <li><a href="eventos.php">Eventos</a></li>
+                            <li><a href="nossaslojas.php">Nossas Lojas</a></li>
+                            <li><a href="sobre.php#contatos_box">Contato</a></li>
                         </ul>
                     </div>
                 </div>
-                <div id="quem_somos_box">
+                <div id="content_box">
                     <p class="box_titulo">Quem Somos</p>
                     <p id="box_frase">Nosso foco é atender cada cliente como se fosse único. </p>
                     <p class="texto_box">A <span class="bold">Road Runner Cross Bikes SA</span> nasceu em 2018 após uma virada de mesa de seu fundador, Marcel Neves Teixeira. Seu sonho era empreender no mundo do e-commerce e após o desligamento do seu emprego "estável" ele embarcou para uma ciclo viagem "instável" de 20 dias pela França. Em seu retorno, não teve dúvidas: o empreendimento seria uma loja de bicicletas.</p>
