@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <link rel="stylesheet" href="css/slider.css">
         <link rel="stylesheet" href="css/style.css">
-        <title>Document</title>
+        <title>
+            Noticias
+        </title>
         <link rel="shortcut icon" href="./imagens/icones/icone_principal.png" type="image/x-icon">
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     </head>
