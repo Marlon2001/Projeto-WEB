@@ -26,7 +26,7 @@
                         <li><a href="promocoes.php">Promoções</a></li>
                         <li><a href="eventos.php">Eventos</a></li>
                         <li><a href="nossaslojas.php">Nossas Lojas</a></li>
-                        <li><a href="sobre.php#contatos_box">Contato</a></li>
+                        <li><a href="faleconosco.php">Fale Conosco</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,9 +46,7 @@
                                 <div class="comentario">
                                     Escreva um comentario
                                 </div>
-                                <div class="coracao">
-                                    
-                                </div>
+                                <div class="coracao"></div>
                             </div>
                         </div>
                     </div>

@@ -22,10 +22,16 @@
                 <h1 hidden>Burlando o w3c validator</h1>    
                 <div id="conteudo_lado_esquerdo">
                     <div class="categorias">
-                        Categoria 1
+                        Tamanhos
                     </div>
                     <div class="categorias">
-                        Categoria 1
+                        Cor
+                    </div>
+                    <div class="categorias">
+                        Marca
+                    </div>
+                    <div class="categorias">
+                        Idade
                     </div>
                 </div>
                 <div id="conteudo_lado_direito">
@@ -60,6 +66,5 @@
         <footer id="rodape">
             <?php include('./recursos/rodape.php') ?>
         </footer>
-        <script src="./js/script.js"></script>
     </body>
 </html>

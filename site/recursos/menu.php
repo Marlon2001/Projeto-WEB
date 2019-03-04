@@ -1,8 +1,10 @@
 
 <div id="menu_principal" class="center">
-    <figure id="logo">     
-        <img src="./imagens/icones/logo.png" alt="Logo do site" title="Logo do site">
-    </figure>
+    <a href="index.php">
+        <figure id="logo">     
+            <img src="./imagens/icones/logo.png" alt="Logo do site" title="Logo do site">
+        </figure>
+    </a>
     <nav id="sessoes_menu">
         <ul id="menu_ul"> 
             <li>
@@ -18,7 +20,7 @@
                 <a href="nossaslojas.php" class="menu_ul_a" style="padding: 20px 7px;">Nossas Lojas</a>
             </li>
             <li>
-                <a href="sobre.php#contatos_box" class="menu_ul_a" style="padding: 20px 6px;">Contato</a>
+                <a href="faleconosco.php" class="menu_ul_a" style="padding: 20px 6px;">Fale Conosco</a>
             </li>
             <li>
                 <a href="sobre.php" class="menu_ul_a" style="padding: 20px 35px;" >Sobre</a>

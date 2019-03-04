@@ -71,10 +71,16 @@
             <!-- <div data-t="0" style="position:absolute;top:320px;left:30px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Testo de teste</div> -->
         </div>
         <div>
-            <img data-u="image" alt="" src="imagens/img2.jpg" />
-            <div data-ts="flat" data-p="1360" style="position:absolute;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <img data-u="image" alt="" src="imagens/slide_img2.jpg" />
+            <!-- <div data-ts="flat" data-p="1360" style="position:absolute;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
                 <div data-t="1" style="position:absolute;top:-50px;left:125px;width:500px;height:40px;font-family:Oswald,sans-serif;font-size:32px;font-weight:200;line-height:1.2;text-align:center;background-color:rgba(255,188,5,0.8);">Slide pesadao</div>
-            </div>
+            </div> -->
+        </div>
+        <div>
+            <img data-u="image" alt="" src="imagens/slide_img3.jpg" />
+        </div>
+        <div>
+            <img data-u="image" alt="" src="imagens/slide_img4.jpg" />
         </div>
     </div>
     <!-- Bullet Navigator -->
