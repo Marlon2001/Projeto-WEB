@@ -24,12 +24,17 @@
     font-weight: bold;
 }
 
+.identacao{
+    padding-left: 2em;
+}
+
 /* Cabeçalho --------------------------------------------------------------------------------------------------*/
 header{
     width: 100%;
     height: 80px;
     box-sizing: border-box;
     z-index: 999;
+    position: fixed;
     background-color: #0F1626;
 }
 
@@ -168,7 +173,8 @@ button:active{
 
 /* Conteudo --------------------------------------------------------------------------------------------------*/
 #caixa_conteudo, #caixa_conteudo_noticias, 
-#caixa_conteudo_nossas_lojas, #caixa_conteudo_promocoes, #caixa_conteudo_fale_conosco{
+#caixa_conteudo_nossas_lojas, #caixa_conteudo_promocoes, #caixa_conteudo_fale_conosco,
+#caixa_conteudo_sobre, #caixa_conteudo_eventos{
     width: 1400px;
     min-height: 1400px;
     height: auto;
@@ -466,13 +472,9 @@ button:active{
     color: white;
 }
 
-#sobre_box{
+#caixa_conteudo_sobre{
     width: 1500px;
-    min-height: 400px;
-    height: auto;
-    overflow: hidden;
-    margin-top: 40px;
-    padding-top: 10px;
+    border: 0;
 }
 
 #institucional_box{
@@ -654,16 +656,15 @@ input[type="text"]#txt_profissao, input[type="text"]#txt_home_page{
 }
 
 #caixa_conteudo_noticias{
-    width: 1500px;    
-    margin-top: 40px;
+    width: 1500px;
     border: 0;
 }
 
-.titulo_noticias{
+.titulo_noticias, .titulo_eventos{
     color: black;
 }
 
-.box_noticia{
+.box_noticia, .box_eventos{
     width: 100%;
     height: 470px;
     margin-top: 30px;
@@ -671,14 +672,14 @@ input[type="text"]#txt_profissao, input[type="text"]#txt_home_page{
     border: 1px solid rgb(143, 143, 143);
 }
 
-.noticia_img{
+.noticia_img, .eventos_img{
     width: 47%;
-    height: 100%;
+    height: 400px;
     background-color: bisque;
     float: left;
 }
 
-.noticia_conteudo{
+.noticia_conteudo, .eventos_conteudo{
     width: 53%;
     height: 100%;
     float: left;
@@ -696,9 +697,11 @@ input[type="text"]#txt_profissao, input[type="text"]#txt_home_page{
     font-weight: bold;
 }
 
-.noticia_conteudo_content{
+.noticia_conteudo_content, .eventos_conteudo_content{
     width: 100%;
-    height: 250px;
+    min-height: 250px;
+    height: auto;
+    overflow: hidden;
     margin-top: 30px;
     font-size: 26px;
     letter-spacing: 1.5px;
@@ -707,7 +710,7 @@ input[type="text"]#txt_profissao, input[type="text"]#txt_home_page{
     border-bottom: 1px solid rgb(170, 170, 170);
 }
 
-.noticia_conteudo_rodape{
+.noticia_conteudo_rodape, .eventos_conteudo_rodape{
     width: 100%;
     margin-top: 15px;
     height: 60px;
@@ -743,7 +746,6 @@ input[type="text"]#txt_profissao, input[type="text"]#txt_home_page{
 
 #caixa_conteudo_nossas_lojas{
     width: 1500px;
-    margin-top: 40px;
     border: 0px;
 }
 
@@ -780,7 +782,6 @@ input[type="text"]#txt_profissao, input[type="text"]#txt_home_page{
 
 #caixa_conteudo_fale_conosco{
     width: 1500px;
-    margin-top: 40px;
     border: 0;
 }
 
@@ -789,7 +790,6 @@ input[type="text"]#txt_profissao, input[type="text"]#txt_home_page{
     min-width: 1200px;
     height: auto;
     overflow: hidden;
-    margin-top: 40px;
     border: 0;
 }
 
@@ -964,6 +964,37 @@ input[type="text"]#txt_profissao, input[type="text"]#txt_home_page{
 .card_bike_descricao a:hover{
     text-decoration: underline;
     color: black;
+}
+
+#caixa_conteudo_eventos{
+    width: 1500px;
+    border: 0;    
+}
+
+.eventos_titulo{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.box_eventos{
+    height: 600px;
+    padding: 20px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.eventos_img{
+    margin-top: 10px;
+    float: right;
+}
+
+.eventos_conteudo_content{
+    margin-top: -10px;
+    min-height: 370px;
 }
 
 @font-face {

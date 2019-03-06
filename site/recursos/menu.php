@@ -39,7 +39,7 @@
                     <input type="password" id="txt_password" name="txt_password" placeholder="Digite sua senha">
                 </li>
                 <li style="width: 100px; padding-top: 17px;">
-                    <button>Entrar</button>
+                    <button>Login</button>
                 </li>
             </ul>
         </form>

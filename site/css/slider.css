@@ -20,7 +20,7 @@
 
 /*jssor slider arrow skin 053 css*/
 .jssora053 {display:block;position:absolute;cursor:pointer;}
-.jssora053 .a {fill:none;stroke:#fff;stroke-width:640;stroke-miterlimit:10;}
+.jssora053 .a {fill:none;stroke:#fff;stroke-width:2000;stroke-miterlimit:10;}
 .jssora053:hover {opacity:.8;}
 .jssora053.jssora053dn {opacity:.5;}
 .jssora053.jssora053ds {opacity:.3;pointer-events:none;}

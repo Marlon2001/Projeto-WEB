@@ -13,6 +13,8 @@
         <header id="header">
             <?php include('./recursos/menu.php')?> 
         </header>
+        <!-- Div para afastar o menu do conteudo, pois o menu esta fixed e fica sobre o conteudo -->
+        <div style="width: 100%; height: 110px;"></div>
         <div id="caixa_conteudo_promocoes" class="center">
             <div id="institucional_box" style="width: 260px;">
                 <div id="institucional_titulo" style="width: 245px;">
@@ -31,7 +33,7 @@
                 </div>
             </div>
             <section id="bikes_list">
-                <h1>Bicicletas - Bike</h1>
+                <h1>Bicicletas - Promoções</h1>
                 <div id="box_content">
                     As bicicletas e os equipamentos de bikes das grandes marcas estão disponíveis nas versões feminina, masculina e infantil, oferecendo a pedalada certa para garantir a diversão de toda a família...
                 </div>

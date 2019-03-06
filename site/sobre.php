@@ -13,7 +13,9 @@
         <header id="header">
             <?php include('./recursos/menu.php') ?>
         </header>
-        <section id="sobre_box" class="center">
+        <!-- Div para afastar o menu do conteudo, pois o menu esta fixed e fica sobre o conteudo -->
+        <div style="width: 100%; height: 110px;"></div>
+        <section id="caixa_conteudo_sobre" class="center">
             <h1 hidden>Burlando o w3c validator</h1>
             <div id="institucional_box">
                 <div id="institucional_titulo">

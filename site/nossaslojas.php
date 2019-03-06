@@ -11,6 +11,8 @@
         <header id="header">
             <?php include('./recursos/menu.php') ?>
         </header>
+        <!-- Div para afastar o menu do conteudo, pois o menu esta fixed e fica sobre o conteudo -->
+        <div style="width: 100%; height: 110px;"></div>
         <div id="caixa_conteudo_nossas_lojas" class="center">
             <div id="institucional_box">
                 <div id="institucional_titulo">

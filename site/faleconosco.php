@@ -13,6 +13,8 @@
         <header id="header">
             <?php include('./recursos/menu.php') ?>
         </header>
+        <!-- Div para afastar o menu do conteudo, pois o menu esta fixed e fica sobre o conteudo -->
+        <div style="width: 100%; height: 110px;"></div>
         <div id="caixa_conteudo_fale_conosco" class="center">
             <div id="institucional_box">
                 <div id="institucional_titulo">
@@ -31,7 +33,6 @@
                 </div>
             </div>
             <div id="contatos_box">
-            
                 <p class="box_titulo">Fale Conosco</p>
                 <p class="texto_box2">Se você tem alguma dúvida, crítica ou sugestão preencha o formulário abaixo e entraremos em contato. Ou se preferir ligue para a nossa central de atendimento no(s) número(s): (11) 4002-8922 | (11) 5425-9666 WhatsApp: (11) 90707-0707<br>E-mail: <a href="mailto:sac@roadrunner.com.br">sac@roadrunner.com.br</a></p>
                 <span style="font-size: 22px; color:red; margin-top: 60px;">º Campos com '*' são obrigatórios.</span><br>
@@ -73,5 +74,8 @@
                 </div>                
             </div>
         </div>
+        <footer id="rodape">
+            <?php include('./recursos/rodape.php') ?>
+        </footer>
     </body>
 </html>
